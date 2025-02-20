@@ -6,6 +6,8 @@ class Menu{
     }
     mtitle;url;tips;
 }
+
+
 //?menu=0 의 쿼리스트링은 데이터 생성함수 data_sets 객체의 push 순서와 일치합니다.
 menu0 = new Menu("1. 선형회귀분석")//1. 개발목적/언어-선정/요구사항명세/분석 2. 구현도구/라이센스 3. 테스트도구(junit,mockobj)  4. 형상관리도구  5. 빌드도구
 menu0.url = "?menu=0"
