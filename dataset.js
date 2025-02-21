@@ -20,10 +20,10 @@ let d1 = new DataSet("선형회귀분석")//메인 타이틀 //메뉴번호
 d1.set_content("공부 시간과 성적과의 관련성의 선형성을 가진 연속적인 데이터를 활용하여 연속된 예상값을 추출하는 모델.")//서브 타이틀
 d1.set_img(0,{imgtitle:"일부샘플코드",imgurl:"https://drive.google.com/file/d/1CbFOb-MPW0a3w9frOZbjbs18d2maDLqo/view?usp=drive_link",imglog:"시험성적 데이터를 임의로 만들어 선형회귀분석 코드",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
 d1.set_img(0,{imgtitle:"산정도데이터분석",imgurl:"https://drive.google.com/file/d/1KUKQ6fVlmKwy7cQWY1QvEe64eGN0sF5X/view?usp=drive_link",imglog:"문제데이터의 선형성 관계 파악을 위한 산정도 그래프 분석",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
-d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
-d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
-d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
-d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"데이터전처리",imgurl:"https://drive.google.com/file/d/12i6EmjYac1bvBVThHjX8D7u28j31QfYX/view?usp=drive_link",imglog:"훈련시 모델의 올바른 학습을 위해 데이터의 정규분포로 표준화 전처리 시행",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"선형모델의 구성, 컴파일, 훈련",imgurl:"https://drive.google.com/file/d/1COZfXQrLL3jJtMUdFtxdpC-KmrGd52Ef/view?usp=drive_link",imglog:"Sequential모델 및 입력출력레이어 작성과 mse 오차손실함수 및 역전파시적용 될 SGD(경사하강법) 최적호함수 적용과 200회 훈련실행",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"훈련결과 시각화",imgurl:"https://drive.google.com/file/d/1vCcdz5IGJ2QDbOozZn4amnckoXIrOlHt/view?usp=drive_link",imglog:"시각화 그래프 판단시 120회 훈련에서 훈련 조기종료를 검토할수도 있다.",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"모델의 예측",imgurl:"https://drive.google.com/file/d/12_g9Q2q9TadmPacSRY0b6uO4RGDTWBdD/view?usp=drive_link",imglog:"임의의 데이터를 생성하여 모델의 예측 결과를 표기",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
 
 d1.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
 d1.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/file/d/15GgAeFgW1Cxctk9PbJagUNfG2UkEU4WS/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/1UvD1fZNL9yjLORwxgAW5vD6C-A_RwL1zcNan9RZqmys/edit?usp=drive_link"})//이미지타이틀
