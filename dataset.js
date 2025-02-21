@@ -20,10 +20,10 @@ let d1 = new DataSet("선형회귀분석")//메인 타이틀 //메뉴번호
 d1.set_content("공부 시간과 성적과의 관련성의 선형성을 가진 연속적인 데이터를 활용하여 연속된 예상값을 추출하는 모델.")//서브 타이틀
 d1.set_img(0,{imgtitle:"일부샘플코드",imgurl:"https://drive.google.com/file/d/1CbFOb-MPW0a3w9frOZbjbs18d2maDLqo/view?usp=drive_link",imglog:"시험성적 데이터를 임의로 만들어 선형회귀분석 코드",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
 d1.set_img(0,{imgtitle:"산정도데이터분석",imgurl:"https://drive.google.com/file/d/1KUKQ6fVlmKwy7cQWY1QvEe64eGN0sF5X/view?usp=drive_link",imglog:"문제데이터의 선형성 관계 파악을 위한 산정도 그래프 분석",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
-d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"시험성적 데이터를 임의로 만들어 선형회귀분석 코드",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
-d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"시험성적 데이터를 임의로 만들어 선형회귀분석 코드",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
-d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"시험성적 데이터를 임의로 만들어 선형회귀분석 코드",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
-d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"시험성적 데이터를 임의로 만들어 선형회귀분석 코드",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/exam.lg.py"})//이미지타이틀
 
 d1.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
 d1.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/file/d/15GgAeFgW1Cxctk9PbJagUNfG2UkEU4WS/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/1UvD1fZNL9yjLORwxgAW5vD6C-A_RwL1zcNan9RZqmys/edit?usp=drive_link"})//이미지타이틀
