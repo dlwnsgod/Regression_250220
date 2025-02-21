@@ -38,13 +38,20 @@ d1.set_img(1,{imgtitle:"훈련결과시각화",imgurl:"https://drive.google.com/
 d1.set_img(1,{imgtitle:"데이터 예측",imgurl:"https://drive.google.com/file/d/121dffJdNDOTIv-mrOj-FKLo-pIqvGwKU/view?usp=drive_link",imglog:"테스트 데이터 10개를 일부 추출하여 예측 실행, 결과는 오차확률 4% 수치대로 접근",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/diabet.py"})//이미지타이틀
 
 
-d1.set_content("코딩개발도구와 테스트 및 빌드, 패키징, 배포등 개발 전반에 대한 필요한 환경을 설정한다.")
-d1.set_img(2,{imgtitle:"개발환경 구축 명세",imgurl:"https://drive.google.com/file/d/1mw6ZBtTbbZQYlfz1YQXCuTfoi-hnvfpg/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1rNVbHnhYGoozaqX_RsD3cErmKYzGUMvba9ihxbP2CKk/edit?usp=drive_link"})//이미지타이틀
-d1.set_img(2,{imgtitle:"개발도구 Spring for Eclipse",imgurl:"https://drive.google.com/file/d/1vl3Ridea05eDn3Hx0cfIWzgkPi-vQX31/view?usp=drive_link",imglog:"자바 스프링 서버단 개발을 위한 도구",sourceurl:""})//이미지타이틀
-d1.set_img(2,{imgtitle:"빌드도구 gradle",imgurl:"https://drive.google.com/file/d/1vlxyuzBmzaBk7B9VoycUH0mRBBxe4nTr/view?usp=drive_link",imglog:"프로그램 빌드 및 외부 라이브러리 디펜더시를 위한 도구",sourceurl:""})//이미지타이틀
-d1.set_img(2,{imgtitle:"형상관리도구 git",imgurl:"https://drive.google.com/file/d/1yLXiqHWblzxAnZXGZKvRcxU8HSgf3UqS/view?usp=drive_link",imglog:"프로그램의 전반적인 개발협업 및 버전관를 위한 도구",sourceurl:""})//이미지타이틀
+d1.set_content("보스턴 지역의 환경에 따른 하우스 가격 데이터로 예측값은 연속데이터로 출력")
+d1.set_img(2,{imgtitle:"보스턴하우징샘플코드",imgurl:"https://drive.google.com/file/d/1TahlgtRpqtlfqHYCIKpYxJdvrvw_ua4u/view?usp=drive_link",imglog:"총 12개 유형의 데이터로 1인당 범죄율, 주거토지비율, 회사입지비율, 강의 경계여부, 일산화질소 농도, 방의 갯수등의 13개의 데이터를 분석하여 집가격을 예측하는 시나리오",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"1.데이터연관성 산정도분석코드",imgurl:"https://drive.google.com/file/d/1P4Ip9Hcatlml_N-YCvouFibzya_QitBZ/view?usp=drive_link",imglog:"데이터연관성 분석을 위해 데이터 항목별 산정도 시각화",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"2.산정도 시각화 그래프",imgurl:"https://drive.google.com/file/d/1ALSaPXHVysUsz1ew1fYj2Lj6VWU2Sjp1/view?usp=drive_link",imglog:"분석결과 5번 인덱스 그래프의 선형방향성 확인 선택",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"3.산정도 시각화 그래프",imgurl:"https://drive.google.com/file/d/1ctKLyk90peCGKfEQVyfAHi2o7CS2wV3U/view?usp=drive_link",imglog:"분석결과 7번 인덱스 그래프의 선형방향성 확인 선택",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"훈련을 위한 데이터 선택",imgurl:"https://drive.google.com/file/d/1eKyqCNoRu3pSekgHacuZuP7naCUrP9g5/view?usp=drive_link",imglog:"5번 인덱스 데이터와 7번 인덱스 데이터의 선형성 확인결과로 훈련데이터로 추출후 선형성 재확인",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"훈련데이터 전처리",imgurl:"https://drive.google.com/file/d/1ScQO_GysyJlwa7luWGYVb8JaHjBt2_uI/view?usp=drive_link",imglog:"훈련데이터의 수치 폭을 확인후 정규분포데이터로 표준화 실행",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"모델 구성 및 훈련",imgurl:"https://drive.google.com/file/d/19kPt3bmNBC3UvBe9uAMPeG8x1wEqoL_n/view?usp=drive_link",imglog:"순차모델 구성과 입출력레이어 추가, MSE 손실함수 및 SGD 최적화 함수를 적용하여 컴파일, 10회 훈련 실시",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"훈련결과 시각화",imgurl:"https://drive.google.com/file/d/1h7au4XBgBVE4Xn-rP80PVvV6LwuVrVj6/view?usp=drive_link",imglog:"훈련결과 손실값을 시각화 그래프로 출력 후 결과 분석 및 확인",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
 
-d1.set_fill("서버의 보안성과 각 수행기능별 패턴을 분리하기 위해 Spring WAS 와 사용자 View 기능을 위해 웹브라우져에서 일반적인 작동이 가능한 HTML5 를 구현하며 데이터베이스 연동 대신 파일로 회원목록 저장")//사용자 에필로그
+
+d1.set_fill("선형 분석을 위한 데이터 표준화 및 훈련실행시 연관된 데이터 수집과 분석하여 데이터를 선택함이 중요하게 생각된다.")//사용자 에필로그
 data_sets.push(d1)
 
 // menu2 =============================================================
