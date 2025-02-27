@@ -55,18 +55,24 @@ d1.set_fill("선형 분석을 위한 데이터 표준화 및 훈련실행시 연
 data_sets.push(d1)
 
 // menu2 =============================================================
-let d2 = new DataSet("공통모듈구현")//메인타이틀
-d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
-d2.set_img(0,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1nnSKw0su1NKkr-4O3bXNv33_ZZ8D54Qk/view?usp=drive_link",imglog:"작성된 요구사항 명",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
+//https://github.com/dlwnsgod/Regression_250220/tree/main/binary_classification_Regression
+let d2 = new DataSet("종양데이터 분석에 의한 음성과 양성 종양데이터 예측모델")//메인타이틀
+d2.set_content("종양데이터 분석 및 결과.")//서브 타이틀
+d2.set_img(0,{imgtitle:"데이터수집",imgurl:"https://drive.google.com/file/d/1M5l82dXr_3GWrJHN1QhjTuXCjQ3oBqfR/view?usp=drive_link",imglog:"sklearn에서 제공하는 중앙데이터 수신코드",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"수신데이터구성파악",imgurl:"https://drive.google.com/file/d/1wbY2jIsWdA69SaGnjy0-yjPmZBt2zAYp/view?usp=drive_link",imglog:"반지름,표면조직,둘레 등 10개의 특성 데이터 파악",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"데이터값 수치분석",imgurl:"https://drive.google.com/file/d/1bgscjg8OGFTEtb8WDw2Ag9hLSnnA6tdn/view?usp=drive_link",imglog:"각 특성의 최대값과 표준편차 분석",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"훈련 및 테스트데이터 분리",imgurl:"https://drive.google.com/file/d/15MubHGZsEEio-bWzCtBTJ3loCaA5sOdd/view?usp=drive_link",imglog:"훈련데이터 80%, 검증데이터 10%, 테스트데이터 10% 각각 분리",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"데이터전처리",imgurl:"https://drive.google.com/file/d/1Gbca8LQd2un5GhQk9OBmtrXk7jGdIyOO/view?usp=drive_link",imglog:"데이터 표준분포값으로 변경 후 변경된 데이터 확인",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"데이터최종확인",imgurl:"https://drive.google.com/file/d/1N8Ec8xRGK8t7r3DsSXHDgx1IirQJJ2R-/view?usp=drive_link",imglog:"훈련전 데이터 수정 및 차원과 값에 대한 최종확인",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"이진분류모델구성과훈련",imgurl:"https://drive.google.com/file/d/1Qc65WEeajHjiBU_JFN2GlV97v0bVwJvh/view?usp=drive_link",imglog:"이진분류모델 구성후 컴파일 및 훈련200회 실행",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"훈련결과시각화그래프",imgurl:"https://drive.google.com/file/d/1KRYr2oPssXNoidZiEZQYGR0R84dAEFRv/view?usp=drive_link",imglog:"이진분류모델의 훈련후 검증데이터와 훈련데이터의 정확도와 손실도 측정 데이터 그래프 시각화",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"이진분류모델평가",imgurl:"https://drive.google.com/file/d/1nfqVh4Y1CBOoSBuA9avzdpp4D-XG7s3V/view?usp=drive_link",imglog:"테스트 데이터와 테스트 정답을 입력하여 손실율과 정확률 측정",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"예측데이터 출력",imgurl:"https://drive.google.com/file/d/1TfH_ldMtyQFmssCbDdfcCF9BlVUDn5yQ/view?usp=drive_link",imglog:"테스트 데이터를 입력하여 예측값을 출력 후 실제정답과 비교",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"혼동행렬과시각화히트맵",imgurl:"https://drive.google.com/file/d/1C-bZO4TN2GrgOjDIV7peniiN9C8Cn3Vm/view?usp=drive_link",imglog:"혼동행렬을 출력하여 히트맵으로 실제정답과 예측정답의 예측된 횟수 시각화 실행하여 1종오류와 2종오류에 대한 추측",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
+d2.set_img(0,{imgtitle:"정밀도재현율측정",imgurl:"https://drive.google.com/file/d/16Vkn6fWGBbpJqkj54i7YXeXcAjxb1Z3e/view?usp=drive_link",imglog:"훈련결과 모델의 정밀도와 제현율 및 f1-score을 측정하여 수치 요약",sourceurl:"https://github.com/dlwnsgod/Regression_250220/blob/main/binary_classification_Regression/logistic_regression_cancer.py"})//이미지타이틀
 
-d2.set_content("테스트케이스를 작성합니다.")
-d2.set_img(1,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1nnSKw0su1NKkr-4O3bXNv33_ZZ8D54Qk/view?usp=drive_link",imglog:"작성된 요구사항 명",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
 
-d2.set_content("단위테스트를 작성합니다.")
-d2.set_img(2,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1nnSKw0su1NKkr-4O3bXNv33_ZZ8D54Qk/view?usp=drive_link",imglog:"작성된 요구사항 명",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
-
-
-d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
+d2.set_fill("악성종양과 양성 종양을 확률적으로 구분 할 수 있는 AI모델 구축")//사용자 에필로그
 data_sets.push(d2)
 
 // menu3 =============================================================
